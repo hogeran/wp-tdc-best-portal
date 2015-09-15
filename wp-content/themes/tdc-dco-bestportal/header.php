@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="sv">
   <head>
-    <title>Beställnings-Portalen</title>
+    <title><?php wp_title(''); ?></title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="SHORTCUT ICON" href="<?php bloginfo('template_url')?>/img/tdc_smal_white.ico"/>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>"/>
+    <link rel="SHORTCUT ICON" href="<?php bloginfo('template_url');?>/img/tdc_smal_white.ico"/>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>"/>
   </head>
   <body>
       
@@ -39,8 +39,9 @@
     <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png
 " alt="Logo Image"></a>
 		<div class="hero-copy">
-			<h1>Short description of Product</h1>
-			<p>A few reasons why this product is worth using, who it's for and why they need it.</p>	
+			<h1><?php wp_title(); ?></h1>
+			<p><?php bloginfo('description');?></p>	
 		</div>
 	</div>
 </div>
+<div class="content-container">
