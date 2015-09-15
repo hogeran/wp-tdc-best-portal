@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="SHORTCUT ICON" href="<?php bloginfo('template_url');?>/img/tdc_smal_white.ico"/>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>"/>
+    <?php wp_head(); ?>
+
   </head>
   <body>
       
    <header class="navigation" role="banner">
     <div class="navigation-wrapper">
-        <a href="javascript:void(0)" class="logo">
+        <a href="<?php bloginfo('url');?>" class="logo">
             <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image">
         </a>
         <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
@@ -39,7 +41,7 @@
     <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png
 " alt="Logo Image"></a>
 		<div class="hero-copy">
-			<h1><?php wp_title(); ?></h1>
+			<h1><?php bloginfo('name');?></h1>
 			<p><?php bloginfo('description');?></p>	
 		</div>
 	</div>
