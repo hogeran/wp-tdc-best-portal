@@ -17,6 +17,7 @@
             <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image">
         </a>
         <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+        <?php wp_nav_menu(array('theme_location'=>'main_menu')); ?>
         <nav role="navigation">
             <ul id="js-navigation-menu" class="navigation-menu show">
                 <li class="nav-link"><a href="javascript:void(0)">Products</a></li>
