@@ -639,7 +639,7 @@ header.navigation {
         display: inline;
         margin: 0;
         padding: 0; } }
-  header.navigation ul li.nav-link {
+  header.navigation ul li.menu-item {
     background: #333;
     display: block;
     line-height: 60px;
@@ -649,37 +649,37 @@ header.navigation {
     width: 100%;
     z-index: 9999; }
     @media screen and (min-width: 53.75em) {
-      header.navigation ul li.nav-link {
+      header.navigation ul li.menu-item {
         background: transparent;
         display: inline;
         line-height: 60px;
         text-decoration: none;
         width: auto; } }
-    header.navigation ul li.nav-link a {
+    header.navigation ul li.menu-item a {
       color: rgba(255, 255, 255, 0.7);
       display: inline-block;
       text-decoration: none; }
       @media screen and (min-width: 53.75em) {
-        header.navigation ul li.nav-link a {
+        header.navigation ul li.menu-item a {
           padding-right: 1em; } }
-      header.navigation ul li.nav-link a:focus,
-      header.navigation ul li.nav-link a:hover {
+      header.navigation ul li.menu-item a:focus,
+      header.navigation ul li.menu-item a:hover {
         color: white; }
   header.navigation .active-nav-item a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     padding-bottom: 3px; }
-  header.navigation li.more.nav-link {
+  header.navigation li.more.menu-item {
     padding-right: 0; }
     @media screen and (min-width: 53.75em) {
-      header.navigation li.more.nav-link {
+      header.navigation li.more.menu-item {
         padding-right: 1em; } }
-    header.navigation li.more.nav-link > ul > li:first-child a {
+    header.navigation li.more.menu-item > ul > li:first-child a {
       padding-top: 1em; }
-    header.navigation li.more.nav-link a {
+    header.navigation li.more.menu-item a {
       margin-right: 1em; }
-    header.navigation li.more.nav-link > a {
+    header.navigation li.more.menu-item > a {
       padding-right: 0.6em; }
-    header.navigation li.more.nav-link > a:after {
+    header.navigation li.more.menu-item > a:after {
       position: absolute;
       top: auto;
       right: -0.4em;

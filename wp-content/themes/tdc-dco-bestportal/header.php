@@ -17,19 +17,8 @@
             <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image">
         </a>
         <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
-        <?php wp_nav_menu(array('theme_location'=>'main_menu')); ?>
         <nav role="navigation">
-            <ul id="js-navigation-menu" class="navigation-menu show">
-                <li class="nav-link"><a href="javascript:void(0)">Products</a></li>
-                <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
-                <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
-                <li class="nav-link more"><a href="javascript:void(0)">More</a>
-                    <ul class="submenu">
-                        <li><a href="javascript:void(0)">Submenu Item</a></li>
-                        <li><a href="javascript:void(0)">Another Item</a></li>
-                    </ul>
-                </li>
-            </ul>
+         <?php wp_nav_menu(array('theme_location'=>'main_menu', 'container' => '', 'items_wrap' => '<ul id="js-navigation-menu" class="%2$s navigation-menu show">%3$s</ul>' )); ?>
         </nav>
     </div>
 </header>

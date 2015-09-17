@@ -4,12 +4,7 @@
       <div class="footer-logo">
         <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
       </div>
-        <?php wp_nav_menu(array('theme_location'=>'foot_menu')); ?>
-        <ul>
-          <li><a href="javascript:void(0)">About</a></li>
-          <li><a href="javascript:void(0)">Contact</a></li>
-          <li><a href="javascript:void(0)">Products</a></li>
-        </ul>
+        <?php wp_nav_menu(array('theme_location'=>'foot_menu', 'container' => '')); ?>
 
         <div class="footer-secondary-links">
           <ul>
