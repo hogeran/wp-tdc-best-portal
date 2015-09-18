@@ -1032,3 +1032,7 @@ header.navigation {
     clear: both;
     content: "";
     display: table; }
+
+.flex-boxes.no-marg {
+    padding-top: 0;
+}

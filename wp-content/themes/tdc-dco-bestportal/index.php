@@ -8,7 +8,7 @@
             </a>
         <?php endwhile; ?>
     <?php else: ?>
-        <h2>Innehåll saknas</h2>
+        <h2>Innehåll saknas här</h2>
     <?php endif; ?>
 </div>
 <?php get_footer(); ?>
