@@ -1,4 +1,4 @@
-﻿<?php get_header(); ?>
+<?php get_header(); ?>
     <?php if(have_posts()): while(have_posts()): the_post(); ?>
         <div class="flex-boxes">
             <div class="flex-box">
@@ -10,7 +10,10 @@
             <div class="flex-box flex-box-big">
                 <p><?php the_content(); ?></p>
             </div>
-       </div>
+            <div class="flex-box">
+                <h3>Beställningmeny</h3>
+            </div>
+        </div>
 
         <?php endwhile; ?>
     <?php else: ?>
