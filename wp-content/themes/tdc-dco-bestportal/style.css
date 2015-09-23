@@ -16,3 +16,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import url('css/main.css');
 
+input.vfb-medium, input[type="text"].vfb-medium, input[type="tel"].vfb-medium, input[type="email"].vfb-medium, input[type="url"].vfb-medium, select.vfb-medium {
+    margin-left: 25%;
+}
+
+input.vfb-checkbox, input[type="checkbox"].vfb-checkbox, input.vfb-radio, input[type="radio"].vfb-radio {
+    display: inline;
+}
+
+.vfb-item-checkbox{
+	background: #DCF5E1!important;
+}
